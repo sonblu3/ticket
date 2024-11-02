@@ -57,10 +57,10 @@ bayar = int(input("Bayar: Rp. "))
 kembalian = bayar - total_harga_setelah_diskon
 
 if kembalian > 0:
-    print("Uang kamu kurang tolol, bayar lg anjg. ")
-else:
     print(f"Total bayar : Rp. {bayar:,}")
     print(f"Kembalian nya adalah: Rp. {kembalian:,}")
+else:
+    print("Uang kamu kurang tolol, bayar lg anjg. ")
 
 print("======================================")
 print("STRUK TIKET")
